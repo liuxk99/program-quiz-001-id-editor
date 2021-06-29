@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file defines the base public resources exported by the
+     platform, which must always exist. -->
+
+<!-- ***************************************************************
+     ***************************************************************
+     IMPORTANT NOTE FOR ANYONE MODIFYING THIS FILE
+     READ THIS BEFORE YOU MAKE ANY CHANGES
+
+     This file defines the binary compatibility for resources.  As such,
+     you must be very careful when making changes here, or you will
+     completely break backwards compatibility with old applications.
+
+     To avoid breaking compatibility, all new resources must be placed
+     at the end of the list of resources of the same type.  Placing a resource
+     in the middle of type will cause all following resources to be
+     assigned new resource numbers, breaking compatibility.
+
+     ***************************************************************
+     *************************************************************** -->
+<resources>
+  <public type="attr" name="windowXXXTitle" id="0x010103f6" />
+  <public type="attr" name="windowXXXTitleSize" id="0x010103f7" />
+  <public type="attr" name="windowXXXTitleStyle" id="0x010103f8" />
+
+  <!-- for XXX ui -->
+  <public type="style" name="Theme.Holo.XXX" id="0x010301ee" />
+  <public type="style" name="TextAppearance.Large.XXX" id="0x010301ef" />
+  <public type="style" name="Theme.Holo.XXX.Dialog.Alert.Simple" id="0x010301f0" />
+
+  <public type="dimen" name="XXX_window_left_padding" id="0x01050024" />
+  <public type="dimen" name="XXX_window_right_padding" id="0x01050025" />
+  <public type="dimen" name="XXX_text_size_large" id="0x01050026" />
+
+  <public type="color" name="primary_holo_XXX_normal" id="0x01060027" />
+  <public type="color" name="primary_holo_XXX_focused" id="0x01060028" />
+  <public type="color" name="primary_holo_XXX_disable" id="0x01060029" />
+
+  <public type="drawable" name="btn_default_holo_XXX" id="0x010800bf" />
+  <public type="drawable" name="setting_highlight" id="0x010800c0" />
+  <public type="drawable" name="setting_normal" id="0x010800c1" />
+
+  <public type="layout" name="XXX_list_item_1" id="0x01090031" />
+  <public type="layout" name="XXX_list_item_2" id="0x01090032" />
+  <public type="layout" name="XXX_volume_adjust_item" id="0x01090033" />
+  <public type="layout" name="XXX_volume_adjust" id="0x01090034" />
+  <public type="layout" name="XXX_volume_mute" id="0x01090035" />
+
+  <public type="attr" name="layoutOffsetX" id="0x010103f9" />
+  <public type="attr" name="layoutOffsetY" id="0x010103fa" />
+  <public type="attr" name="offsetWidth" id="0x010103fb" />
+
+ <public type="attr" name="editW" id="0x010103fc"/>
+ <public type="attr" name="pwdlabelText" id="0x010103fd"/>
+ <!-- <public type="attr" name="edittextW" id="0x0101040a"/> -->
+ <!-- <public type="attr" name="edittextH" id="0x0101040b"/> -->
+ <!-- <public type="attr" name="edittextMarginLeft" id="0x0101040c"/> -->
+ <!-- <public type="attr" name="edittextPaddingBottom" id="0x0101040d"/> -->
+ <!-- <public type="attr" name="labeltext" id="0x0101040e"/> -->
+ <!-- <public type="attr" name="labelEdittextHint" id="0x0101040f"/> -->
+ <!-- <public type="attr" name="progressTextSize" id="0x01010410"/> -->
+ <!-- <public type="attr" name="focusEnlarge" id="0x01010411"/> -->
+ <public type="attr" name="itemNormalIcon" id="0x010103fe"/>
+ <public type="attr" name="itemDetail" id="0x010103ff"/>
+
+ <!-- for higher api -->
+ <public type="attr" name="banner" id="0x01010400" />
+</resources>

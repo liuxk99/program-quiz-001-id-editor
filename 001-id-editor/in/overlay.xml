@@ -1,0 +1,100 @@
+<resources>
+
+   <!-- attr resources start with 0x10103f2 -->
+   <public type="attr" name="scrollbarThumb" id="0x10103f2" />
+   <public type="attr" name="scrollbarTrack" id="0x10103f3" />
+   <public type="attr" name="textPrefix" id="0x10103f4" />
+   <public type="attr" name="textSuffix" id="0x10103f5" />
+
+   <!-- dialog -->
+   <public type="style" name="Fun_Dialog_Fullscreen" id="0x010301e5" />
+   <public type="style" name="FunDialogButton" id="0x010301e6" />
+   <public type="style" name="FunDialogProgressBar" id="0x010301e7" />
+   <public type="style" name="Fun_False_Standby_Fullscreen" id="0x010301e8" />
+   <public type="layout" name="fun_common_dialog0" id="0x01090018"/>
+   <public type="layout" name="fun_common_dialog1"  id="0x01090019"/>
+   <public type="layout" name="fun_common_dialog2"  id="0x01090020"/>
+   <public type="layout" name="fun_common_dialog3"  id="0x01090021"/>
+   <public type="layout" name="fun_common_dialog4"  id="0x01090022"/>
+   <public type="layout" name="fun_common_dialog5"  id="0x01090023"/>
+   <public type="layout" name="fun_common_dialog6"  id="0x01090024"/>
+   <public type="layout" name="fun_common_dialog7"  id="0x01090025"/>
+   <public type="layout" name="tv_fun_menu"  id="0x01090028"/>
+   <public type="layout" name="fun_common_dialog8"  id="0x01090029"/>
+   <public type="layout" name="fun_common_dialog9"  id="0x01090030"/>
+
+   <public type="id" name="fun_dialog_title" id = "0x01020030"/>
+   <public type="id" name="fun_dialog_title_icon" id = "0x01020031"/>
+   <public type="id" name="fun_dialog_content" id = "0x01020032"/>
+   <public type="id" name="fun_dialog_btn_confirm" id = "0x01020033"/>
+   <public type="id" name="fun_dialog_btn_cancel" id = "0x01020034"/>
+   <public type="id" name="tv_fun_menu" id = "0x01020035"/>
+   <public type="id" name="fun_dialog_checkbox" id = "0x01020036"/>
+
+   <public type="dimen" name="fun_dialog_button_width" id="0x01050007" />
+   <public type="dimen" name="fun_dialog_button_height" id="0x01050008" />
+   <public type="dimen" name="fun_screen_width" id="0x01050009" />
+   <public type="dimen" name="fun_screen_height" id="0x0105000a" />
+   <public type="dimen" name="fun_dialog_width" id="0x0105000b" />
+   <public type="dimen" name="fun_dialog_small_width" id="0x0105000c" />
+   <public type="dimen" name="fun_dialog_medium_width" id="0x0105000d" />
+
+   <public type="color" name="fun_dialog_shadow" id="0x0106001c" />
+   <public type="drawable" name="fun_dialog_bg" id="0x010800b4" />
+
+    <!-- color resources start with 0x0106001d -->
+    <public type="color" name="tv_fun_text_color_alpha_40" id="0x0106001d" />
+    <public type="color" name="tv_fun_text_color_alpha_80" id="0x0106001e" />
+    <public type="color" name="tv_fun_text_color_alpha_100" id="0x0106001f" />
+    <public type="color" name="tv_fun_page_title_selector" id="0x01060020" />
+    <public type="color" name="tv_fun_card_title_selector_40" id="0x01060021" />
+    <public type="color" name="tv_fun_card_title_selector_80" id="0x01060022" />
+    <public type="color" name="tv_fun_card_text_bg_start_color" id="0x01060023" />
+    <public type="color" name="tv_fun_card_text_bg_end_color" id="0x01060024" />
+    <public type="color" name="tv_fun_card_text_bg_color2" id="0x01060025" />
+    <public type="color" name="tv_fun_card_text_bg_color3" id="0x01060026" />
+
+    <!-- dimen resources start with 0x0105000e -->
+    <public type="dimen" name="tv_fun_text_size_24" id="0x0105000e" />
+    <public type="dimen" name="tv_fun_text_size_28" id="0x0105000f" />
+    <public type="dimen" name="tv_fun_text_size_36" id="0x01050010" />
+    <public type="dimen" name="tv_fun_text_size_48" id="0x01050011" />
+    <public type="dimen" name="tv_fun_spacing_size_12" id="0x01050012" />
+    <public type="dimen" name="tv_fun_spacing_size_48" id="0x01050013" />
+    <public type="dimen" name="tv_fun_page_left_spacing" id="0x01050014" />
+    <public type="dimen" name="tv_fun_page_right_spacing" id="0x01050015" />
+    <public type="dimen" name="tv_fun_title_top_spacing" id="0x01050016" />
+    <public type="dimen" name="tv_fun_title_right_spacing" id="0x01050017" />
+    <public type="dimen" name="tv_fun_card_top_spacing" id="0x01050018" />
+    <public type="dimen" name="tv_fun_card_bottom_spacing" id="0x01050019" />
+    <public type="dimen" name="tv_fun_round_corner_radius" id="0x01050020" />
+    <public type="dimen" name="tv_fun_status_bottom_spacing" id="0x01050021" />
+    <public type="dimen" name="tv_fun_scrollbar_margin_bottom" id="0x01050022" />
+    <public type="dimen" name="tv_fun_text_size_40" id="0x01050023" />
+
+    <!-- style resources start with 0x010301e9 -->
+    <public type="style" name="tv_fun_page_title_style" id="0x010301e9" />
+    <public type="style" name="tv_fun_card_title_style_48" id="0x010301ea" />
+    <public type="style" name="tv_fun_card_title_style_36" id="0x010301eb" />
+    <public type="style" name="tv_fun_card_title_style_24" id="0x010301ec" />
+    <public type="style" name="tv_fun_menu_dialog" id="0x010301ed" />
+
+    <!-- animator resources start with 0x010b0002 -->
+    <public type="animator" name="tv_fun_zoom_in_small" id="0x010b0002" />
+    <public type="animator" name="tv_fun_zoom_out_small" id="0x010b0003" />
+    <public type="animator" name="tv_fun_zoom_in_large" id="0x010b0004" />
+    <public type="animator" name="tv_fun_zoom_out_large" id="0x010b0005" />
+
+    <!-- drawable resources start with 0x010800b5 -->
+    <public type="drawable" name="tv_fun_card_focused" id="0x010800b5" />
+    <public type="drawable" name="tv_fun_card_text_bg_1" id="0x010800b6" />
+    <public type="drawable" name="tv_fun_card_text_bg_2" id="0x010800b7" />
+    <public type="drawable" name="tv_fun_card_text_bg_3" id="0x010800b8" />
+    <public type="drawable" name="tv_fun_search_selector" id="0x010800b9" />
+    <public type="drawable" name="tv_fun_search_normal" id="0x010800ba" />
+    <public type="drawable" name="tv_fun_search_focused" id="0x010800bb" />
+    <public type="drawable" name="tv_fun_card_selector" id="0x010800bc" />
+    <public type="drawable" name="tv_fun_card_normal" id="0x010800bd" />
+    <public type="drawable" name="tv_fun_empty_icon" id="0x010800be" />
+
+</resources>
