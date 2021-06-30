@@ -40,7 +40,6 @@
    <public type="dimen" name="fun_dialog_medium_width" id="0x0105000d" />
 
    <public type="color" name="fun_dialog_shadow" id="0x0106001c" />
-   <public type="drawable" name="fun_dialog_bg" id="0x010800b4" />
 
     <!-- color resources start with 0x0106001d -->
     <public type="color" name="tv_fun_text_color_alpha_40" id="0x0106001d" />
@@ -97,4 +96,5 @@
     <public type="drawable" name="tv_fun_card_normal" id="0x010800bd" />
     <public type="drawable" name="tv_fun_empty_icon" id="0x010800be" />
 
+    <public type="drawable" name="fun_dialog_bg" id="0x010800b4" />
 </resources>
