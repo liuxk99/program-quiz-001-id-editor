@@ -133,3 +133,6 @@ Edit 'data/3rd.xml' and save to 'data/out.xml'
         attr,                           itemDetail, (0x01010415 -> 0x010103ff)
         attr,                               banner, (0x01010416 -> 0x01010400)
 ```
+
+# 校招
+参加校招的同学，请联系HR及面试官获取校招提示包。
