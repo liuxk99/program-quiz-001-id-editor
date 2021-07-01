@@ -68,6 +68,7 @@ public.xml, overlay.xml中的type的public元素的id值只需要唯一，不需
 
 # 运行
 程序需要解析xml文件，计算不同type的最大值，解析3rd.xml，并写入public元素新的id，另存xml文件。
+## 控制台输出
 ```
 After parse 'data/public.xml'
             anim: 0x010a000c
@@ -133,6 +134,9 @@ Edit 'data/3rd.xml' and save to 'data/out.xml'
         attr,                           itemDetail, (0x01010415 -> 0x010103ff)
         attr,                               banner, (0x01010416 -> 0x01010400)
 ```
+## 效果
+处理完out.xml应该和result.xml的中id的值一致，不要求格式完全一致。效果如下图：
+![out.xml](https://github.com/liuxk99/program-quiz-001-id-editor/blob/main/result.png)
 
 # 校招
-参加校招的同学，请联系HR及面试官获取校招提示包。
+参加校招的同学，请联系HR或者面试官获取校招提示包。
