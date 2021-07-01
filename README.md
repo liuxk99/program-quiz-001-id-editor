@@ -60,15 +60,17 @@ time(edit)*num(AOSP-version)*num(Solution)*num(branch)
 # 问题
 经过分析，问题如下：
 ## 输入
-public.xml, overlay.xml从中分析各个type中id的最大值max_id。
+public.xml, overlay.xml从中分析各个type中id的最大值max id。
 ## 输出
-从3rd.xml中读入public元素，然后根据type设置新的id值，从max_id开始，并且逐个public元素递增。
+从3rd.xml中读入public元素，然后根据type设置新的id值，从max id开始，并且逐个public元素递增。
 ## 注意
-public.xml, overlay.xml中的type的public元素的id值只需要唯一，不需要严格升序，虽然默认这么编辑更易于阅读。笔者对于本题中的overlay.xml文件进行了顺序调整，所以同type的id值不符合升序，这一点请读者注意。
+public.xml, overlay.xml中的type的public元素的id值只需要唯一，不需要严格升序，虽然这样更易于阅读，而且默认也是这么做的。
+笔者对于本题中的overlay.xml文件进行了顺序调整，所以同type的id值不符合升序，这一点请读者`注意`。
 
 # 运行
-程序需要解析xml文件，计算不同type的最大值，解析3rd.xml，并写入public元素新的id，另存xml文件。
+程序需要解析xml文件(public.xml, overlay.xml)，计算不同type的最大值，解析3rd.xml，并写入public元素新的id，另存xml文件。
 ## 控制台输出
+`注意`：这只是参考，不要求开发者也这么输出，只需要最后的xml中id值正确。
 ```
 After parse 'data/public.xml'
             anim: 0x010a000c
@@ -136,7 +138,15 @@ Edit 'data/3rd.xml' and save to 'data/out.xml'
 ```
 ## 效果
 处理完out.xml应该和result.xml的中id的值一致，不要求格式完全一致。效果如下图：
-![out.xml](https://github.com/liuxk99/program-quiz-001-id-editor/blob/main/result.png)
+![比较](https://github.com/liuxk99/program-quiz-001-id-editor/blob/main/result.png)
+
+# 要求
+本题考察编程设计水平、代码风格。
++ 完全开卷，独立完成。
+候选人可以采取任何的语言，比如：c, c++, java, python或者其他语言。
++ 代码编译后，可以运行，最好是带IDE或者makefile的工程。
+需要提供代码，邮件发送或者托管到github。
++ 推荐使用版本管理工具(比如git，记录commit)。此项可加分。
 
 # 校招
 参加校招的同学，请联系HR或者面试官获取校招提示包。
