@@ -149,4 +149,4 @@ Edit 'data/3rd.xml' and save to 'data/out.xml'
 + 推荐使用版本管理工具(比如git，记录commit)。此项可加分。
 
 # 校招
-参加校招的同学，请联系HR或者面试官获取校招提示包。
+参加校招的同学，请联系HR或者面试官获取校招提示包(C++, tinyxml2)。
